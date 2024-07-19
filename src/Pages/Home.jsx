@@ -1,15 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Navbar from '../Component/Navbar/Navbar'
 import Hero from '../Component/Hero/Hero'
 import Footer from '../Component/Footer/Footer'
-import LangDisc from '../Component/Lang/LangDisc'
+
+import Navbar1 from '../Component/Navbar/Navbar1'
+
 const Home = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar1/>
     <Hero/>
-    <LangDisc/>
+  
     <Footer/>
     </>
   )

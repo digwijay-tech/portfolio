@@ -1,23 +1,10 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
-import "../Footer/Footer.css";
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div>
-        <h3>Created and Copyrigth by Digwijay-tech</h3>
-      </div>
+    <div>Footer</div>
+  )
+}
 
-      <dir >
-        <ul className="lists">
-            <li>Facebook</li>
-            <li>X</li>
-            <li>Linkedin</li>
-            <li>GitHub</li>
-        </ul>
-      </dir>
-    </footer>
-  );
-};
-
-export default Footer;
+export default Footer
