@@ -6,7 +6,7 @@ import WavingHandIcon from '@mui/icons-material/WavingHand';
 import { yellow } from "@mui/material/colors";
 import { Col, Container, Row } from "react-bootstrap";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import imgs from '../../assets/img/header-img.svg'
+
 const Hero = () => {
   const [LoopNum,setLoopNum]= useState(0);
   const [isDeleting,setIsDeleting]= useState(false);
