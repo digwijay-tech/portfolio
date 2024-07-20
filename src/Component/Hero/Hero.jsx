@@ -59,8 +59,7 @@ const Hero = () => {
           <br/>
           <p> I&apos;m Digwijay, a dedicated Full Stack Web Developer focused on Angular development.
              I specialize in crafting seamless web applications with dynamic, user-friendly interfaces. 
-             I&apos;m passionate about delivering efficient solutions that merge creativity with technical excellence. With each project,
-             I strive to innovate and elevate user experiences in web development.</p>
+             </p>
              
              
           <button onClick={()=>{console.log("connect")}}> Lets connect <ArrowForwardIcon/> </button>
