@@ -28,6 +28,15 @@ const Navbar1 = () => {
         setActiveLink(value);
 
     }
+
+    
+       const scrollTo=(id)=>{
+        const element = document.getElementById(id);
+        if (element){
+          element.scrollIntoView({behavior:'smooth' })
+        }
+       }
+  
     
 
   return (
@@ -52,7 +61,7 @@ const Navbar1 = () => {
                 <a href=""><img src={nav2} alt="" /></a>
                 <a href=""><img src={nav3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={()=>{console.log('connect')}}><span>Lets connect</span></button>
+            <button className="vvd" onClick={()=>scrollTo('connect')} ><span>Lets connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>

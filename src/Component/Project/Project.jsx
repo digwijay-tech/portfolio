@@ -4,20 +4,17 @@ import { Col, Container, Row } from 'react-bootstrap'
 import CuSpotimg from '../../assets/img/im.png'
 import realimg from '../../assets/img/real.png'
 import Movieimg from '../../assets/img/mov.png'
+import portfolioimg from '../../assets/img/Portfolio.png'
 import ProjectCard from './ProjectCard'
 import './Project.css'
 const Project = () => {
     const projects=[
-        {
-            title : 'Cu-spot',
-            description :"wiehfuwhrwuf",
-            img : CuSpotimg,
-        },
+
 
         {
             title : 'Portfolio',
             description :"wiehfuwhrwuf",
-            img : CuSpotimg,
+            img : portfolioimg,
         },
         {
             title : 'RealEst',

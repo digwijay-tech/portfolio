@@ -53,9 +53,11 @@
   }
   .banner img {
     animation: updown 3s linear infinite;
-    max-width: 390px;
+    max-width: 1000px;
+    
     
   }
+ 
   @keyframes updown {
       0% {
           transform: translateX(-10px);

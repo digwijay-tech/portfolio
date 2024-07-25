@@ -48,10 +48,17 @@ const Hero = () => {
     }
   };
 
+  const scrollTo=(id)=>{
+    const element = document.getElementById(id);
+    if (element){
+      element.scrollIntoView({behavior:'smooth' })
+    }
+   }
+
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="align-item-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline"> Welcome to my portfolio</span>
             <h1>
@@ -68,16 +75,12 @@ const Hero = () => {
               applications with dynamic, user-friendly interfaces.
             </p>
 
-            <button
-              onClick={() => {
-                console.log("connect");
-              }}
-            >
+            <button onClick={() => scrollTo("connect")}>
               {" "}
               Lets connect <ArrowForwardIcon />{" "}
             </button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={5} >
             <img src={img} alt="Header img" />
           </Col>
         </Row>
